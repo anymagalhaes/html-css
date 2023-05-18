@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(105, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font: italic bolder 3em 'Aria', serif;
+    color: teal
+}
+h1#titulo{
+    text-align: center;
+    background-color: teal;
+    color: white
+}
+h2{
+    color: yellowgreen
+}
