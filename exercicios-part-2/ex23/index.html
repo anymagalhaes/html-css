@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela da Coreia</title>
+
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            background-color: lightgrey;
+            padding: 10px;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+        td, th {
+            border: 2px solid black;
+            padding: 5px;
+        }
+        thead, tfoot {
+            background-color: darkgray;
+            color: white;
+        }
+        td.num {
+            text-align: right;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: darkgray;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: gray;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Tabela Grande!</h1>
+    <table>
+        <caption>População da Coreia em 2015</caption>
+        <thead>
+            <tr>
+                <th scope="col">Província</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Seoul</td>
+                <td class="num">9.904.312</td>
+            </tr>
+            <tr>
+                <td>Busan</td>
+                <td class="num">3.448.737</td>
+            </tr>
+            <tr>
+                <td>Incheon</td>
+                <td class="num">2.890.451</td>
+            </tr>
+            <tr>
+                <td>Daegu</td>
+                <td class="num">2.446.052</td>
+            </tr>
+            <tr>
+                <td>Daejeon</td>
+                <td class="num">1.538.394</td>
+            </tr>
+            <tr>
+                <td>Gwangju</td>
+                <td class="num">1.502.881</td>
+            </tr>
+            <tr>
+                <td>Gyeonggi (Suwon)</td>
+                <td class="num">1.194.313</td>
+            </tr>
+            <tr>
+                <td>Ulsan</td>
+                <td class="num">1.166.615</td>
+            </tr>
+            <tr>
+                <td>South Gyeongsang</td>
+                <td class="num">1.059.241</td>
+            </tr>
+            <tr>
+                <td>Gyeonggi (Goyang)</td>
+                <td class="num">990.073</td>
+            </tr>
+            <tr>
+                <td>Gyeonggi (Yongin)</td>
+                <td class="num">971.327</td>
+            </tr>
+            <tr>
+                <td>Gyeonggi (Seongnam)</td>
+                <td class="num">948.757</td>
+            </tr>
+            <tr>
+                <td>Gyeonggi (Bucheon)</td>
+                <td class="num">843.794</td>
+            </tr>
+            <tr>
+                <td>North Chungcheong</td>
+                <td class="num">833.276</td>
+            </tr>
+            <tr>
+                <td>Gyeonggi (Ansan)</td>
+                <td class="num">747.035</td>
+            </tr>
+            <tr>
+                <td>North Jeolla</td>
+                <td class="num">658.172</td>
+            </tr>
+            <tr>
+                <td>South Chungcheong</td>
+                <td class="num">629.062</td>
+            </tr>
+            <tr>
+                <td>Gyeonggi (Namyangju)</td>
+                <td class="num">629.061</td>
+            </tr>
+            <tr>
+                <td>Gyeonggi (Hwaseong)</td>
+                <td class="num">608.725</td>
+            </tr>
+            <tr>
+                <td>Gyeonggi (Anyang)</td>
+                <td class="num">585.177</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>50.8 million</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
